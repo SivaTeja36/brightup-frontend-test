@@ -1,0 +1,1 @@
+import{r as o}from"./react-BErRZ9yI.js";function c(e,t=350){const[n,r]=o.useState(e);return o.useEffect(()=>{const s=window.setTimeout(()=>r(e),t);return()=>window.clearTimeout(s)},[e,t]),n}export{c as u};

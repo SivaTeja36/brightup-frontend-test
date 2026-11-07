@@ -1,0 +1,3 @@
+const r=t=>{if(t==null)return"";const n=typeof t=="object"?JSON.stringify(t):String(t);return/[",\n\r]/.test(n)?`"${n.replace(/"/g,'""')}"`:n};function a(t,n){const o=n.map(e=>r(e.header)).join(","),c=t.map(e=>n.map(s=>r(s.value(e))).join(","));return[o,...c].join(`\r
+`)}function i(t,n){return[t.map(r).join(","),...n.map(o=>o.map(r).join(","))].join(`\r
+`)}function d(t,n){const o=new Blob(["\uFEFF"+n],{type:"text/csv;charset=utf-8;"}),c=URL.createObjectURL(o),e=document.createElement("a");e.href=c,e.download=t.endsWith(".csv")?t:`${t}.csv`,document.body.appendChild(e),e.click(),e.remove(),URL.revokeObjectURL(c)}export{i as a,d,a as t};

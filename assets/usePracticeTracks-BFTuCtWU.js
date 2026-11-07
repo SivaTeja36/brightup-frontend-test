@@ -1,0 +1,1 @@
+import{u as r,b as t,bp as c,bq as u}from"./index-DV_vzBsy.js";import{l as o}from"./react-BErRZ9yI.js";const n=()=>{const{user:a}=r();return t({queryKey:c.tracks(),queryFn:u,enabled:!!a,staleTime:6e4})},l=()=>o().track??"python",m=a=>{var s;return(s=n().data)==null?void 0:s.find(e=>e.slug===a)};export{l as a,m as b,n as u};

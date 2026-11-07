@@ -1,0 +1,1 @@
+const r=t=>[...t.mentor_id&&t.mentor?[{id:t.mentor_id,name:t.mentor,lead:!0}]:[],...(t.co_mentors??[]).filter(n=>n.id!==t.mentor_id).map(n=>({id:n.id,name:n.name,lead:!1}))],o=t=>t.length<=1?t[0]??"":`${t.slice(0,-1).join(", ")} and ${t[t.length-1]}`,a=t=>{const n=r(t);return n.length?`${n.length===1?"Mentor":"Mentors"} ${o(n.map(e=>e.name))}`:""};export{r as b,o as j,a as m};

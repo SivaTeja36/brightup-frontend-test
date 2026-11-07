@@ -1,0 +1,1 @@
+import{J as l,K as a,bg as t,N as u}from"./index-DV_vzBsy.js";const b=s=>t(a.get("/syllabus",u(s))),y=()=>b({page:1,page_size:1e3,sort_by:"name",order_by:"asc"}),p=s=>l(a.post("/syllabus",s)),r=(s,e)=>l(a.put(`/syllabus/${s}`,e)),c=s=>l(a.delete(`/syllabus/${s}`));export{y as a,p as c,c as d,b as l,r as u};

@@ -1,0 +1,1 @@
+const n=t=>{var s;const o=[];for(const e of(t==null?void 0:t.syllabus)??[])for(const i of((s=e.skill)==null?void 0:s.practice_tracks)??[])o.includes(i)||o.push(i);return o},l=(t,o)=>{var s;return((s=o==null?void 0:o.find(e=>e.slug===t))==null?void 0:s.title)??t.charAt(0).toUpperCase()+t.slice(1)};export{n as b,l as t};

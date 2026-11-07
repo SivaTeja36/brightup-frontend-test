@@ -1,0 +1,1 @@
+import{bi as n,bj as o,bT as s}from"./index-DV_vzBsy.js";function i(e){n(1,arguments);var t=o(e);return t.setHours(0,0,0,0),t}var u=864e5;function d(e,t){n(2,arguments);var a=i(e),r=i(t),f=a.getTime()-s(a),m=r.getTime()-s(r);return Math.round((f-m)/u)}export{d};

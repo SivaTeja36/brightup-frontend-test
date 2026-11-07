@@ -1,0 +1,1 @@
+import{u as x,i as m,j as u,w as h}from"./mui-B45FeNor.js";const l=({PaperProps:t,...i})=>{const e=x(),n=m(e.breakpoints.down("sm")),s=n?{...t,sx:[...Array.isArray(t==null?void 0:t.sx)?t.sx:[t==null?void 0:t.sx],{height:"100%",minHeight:0,maxHeight:"100%"}]}:t;return u.jsx(h,{fullScreen:n||i.fullScreen,PaperProps:s,...i})};export{l as R};

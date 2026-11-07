@@ -1,0 +1,1 @@
+import{J as t,K as l,N as a}from"./index-DV_vzBsy.js";const e=s=>t(l.get("/skills",a(s))),p=()=>t(l.get("/skills/categories")),g=(s,i)=>t(l.post(`/skills/${s}/suggest-topics`,i)),c=(s,i)=>t(l.put(`/skills/${s}`,i));export{p as a,e as l,g as s,c as u};
